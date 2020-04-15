@@ -1,0 +1,301 @@
+@font-face { font-family: ‘helvetica neue’; src: local(‘Arial’); }
+
+@font-face { font-family: ‘helvetica neue’; font-weight:bold; src: local(‘Arial’); }
+
+html, body {
+  font-family: Arial, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+  font-size: 95%;
+  background: #EEEEEE url('../images/bg.png') repeat left 0px;
+  }
+
+h1 {
+	font-size: 120%;
+}
+
+h2 {
+	font-size: 95%;
+}
+
+h3 {
+	font-size: 90%;
+}
+
+a {
+	color: #000000;  
+  }
+
+
+td {
+	padding-right: 5px;
+}
+
+#content {
+    width: 80%;
+    min-height: 530px;
+	min-width: 530px;
+	background: #EFECDD url('../images/logo.png') no-repeat right 0px;
+	
+    position: absolute;
+    top:    20px;
+    left:   0;
+    right:  0;
+    margin: auto;
+	
+	border: 1px solid #AAAAAA;
+	box-shadow: 3px 3px #888888;
+}
+
+#content_text {
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-right: 50px;
+	padding-bottom: 40px;
+	/*border: 1px solid green;*/
+}
+
+#navigation1 {
+  padding-top: 55px;
+  margin-left: 5px;
+  margin-right: 350px;
+  border-bottom: 1px solid #999999;	
+}
+
+#navigation2 {
+  margin-top: 2px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 10px;
+  margin-bottom: 8px;
+  font-size: 90%;
+  /*border: 1px solid green;*/
+}
+
+#confirmBox {
+  position: absolute;
+  top: 0;
+  margin-top: 100px;
+  margin-right: 20px;
+  padding: 20px;
+  border: 1px solid #999999;
+}
+
+ul.nav  {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  }
+
+li.nav {
+  float: left;
+  }
+
+li a {
+  font-weight: bold;
+  display: block;
+  color: #888888;
+  text-align: center;
+  /*padding-top: 55px;*/
+  padding-left: 6px;
+  padding-right: 6px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #EEEEEE;
+}
+
+li a:hover:not(.active1):not( .inactive2) {
+  color: #A4A4A4;
+}
+
+.active1 {
+  color: transparent;
+}
+
+.active2 {
+  color: #000000;
+}
+
+.inactive2 {
+	color: transparent;
+}
+
+/** ERROR MESSAGE DIV **/
+.error {
+	width: 50%;
+	background-color: #ffb3ba;
+	border: 1px solid red;
+	padding: 10px;
+}
+
+/** SUCCESS MESSAGE DIV **/
+.success {
+	width: 50%;
+	background-color: green;
+	padding: 10px;
+}
+
+/** SEARCH FORM TABLE **/
+table.searchform {
+	font-size: 75%;
+	border-spacing: 0px;
+}
+
+table.searchform tr td {
+	padding: 2px;
+	margin: 0px;
+	/*border-spacing: 0px;
+	border-collapse: separate;*/
+}
+
+input.searchform, select.searchform, textarea.searchform {
+	box-sizing: border-box; 
+	width: 100%;
+}
+
+/** TOP **/
+td.sf_t {
+	border-top: 1px solid black;
+}
+
+td.sf_tl {
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+}
+
+td.sf_tr {
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+}
+
+td.sf_tlr {
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+/** BOTTOM **/
+td.sf_b {
+	border-bottom: 1px solid black;
+}
+
+td.sf_bl {
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+}
+
+td.sf_br {
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+}
+
+td.sf_blr {
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+
+/** RIGHT / LEFT **/
+td.sf_l {
+	border-left: 1px solid black;
+}
+
+
+td.sf_r {
+	border-right: 1px solid black;
+}
+
+td.sf_lr {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+
+/** RESULT TABLE **/
+table.resultlist {
+	font-size: 75%;
+	widtH: 98%;
+	border: 1px solid black;
+}
+
+table.resultlist tr td {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+tr.evenline {
+	background: #a3bf75;
+}
+
+tr.lastline {
+	background: #D1D6B8;
+}
+
+/** INFO TD IN TABLES **/
+.info {
+	font-size: 80%;
+	font-style: italic;
+}
+
+/** SUB NAVIGATION **/
+table.subnav {
+	font-size: 85%;
+	text-align: center;
+	width: 98%;
+	border-bottom: 1px solid black;
+	margin-bottom: 10px;
+}
+
+td.subnav_sel {
+	background: #D1D6B8;
+}
+
+a.subsubnav {
+	font-size: 85%;
+}
+
+a.subsubnav_sel {
+	font-size: 85%;
+	background: #D1D6B8;
+}
+
+table.subnav tr td {
+	border: 1px solid black;
+	padding: 4px;
+}
+
+/** TOOL TIPS **/
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 150px;
+  background-color: black;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 5px;
+  font-size: 90%;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

@@ -1,0 +1,6 @@
+#pieChart1, #pieChart2, #pieChart3, #pieChart4  {
+	display:block;
+	height:80%;
+	width:100%;
+	position:relative;
+}
