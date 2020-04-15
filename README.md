@@ -14,7 +14,6 @@ The project consists of the following components:
 - Some sample TEI-XML documents to show how the data is stored.
 
 ## How to use it:
-How to get started:
 - Create a MySQL database with the scheme 'fruechtekorb.sql'
 - Change the credentials in db.php to connect to your database
 - Load the project into a webservers 'htdocs' directory.
